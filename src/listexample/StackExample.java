@@ -6,7 +6,6 @@ public class StackExample {
     public static void main(String[] args) {
 
         Stack<String> stck1 = new Stack<>();
-
         stck1.push("Guava");
         stck1.push("Mango");
         stck1.push("Pineapple");
@@ -19,7 +18,7 @@ public class StackExample {
 
         stck1.pop();
         System.out.println("stck1 after 1st pop : "+stck1);
-
+//add some lines
         System.out.println("traverse using foreach");
         for(String s1 : stck1){
             System.out.println(s1);
