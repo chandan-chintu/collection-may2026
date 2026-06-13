@@ -8,7 +8,6 @@ public class LinkedListExample {
     public static void main(String[] args) {
         // declaring list
         List<Integer> list1 = new LinkedList<>();
-
         // adding data
         list1.add(56);
         list1.add(33);
@@ -21,20 +20,19 @@ public class LinkedListExample {
         //list1.add(null);
         list1.add(86);
         //list1.add(null);
-
+// add some lines
         System.out.println("list1 is : "+list1);
 
         // removing data
         list1.remove(5);
         System.out.println("list1 after removing 5th index : "+list1);
-
         // search/get
         System.out.println("list1 3rd index element is : "+list1.get(3));
         System.out.println("list1 5th index element is : "+list1.get(5));
 
         //size
         System.out.println("list1 size is : "+list1.size());
-
+//add some lines
         //sort
         Collections.sort(list1); //sorting in ascending order
         System.out.println("list1 after sorting in ascending order : "+list1);
